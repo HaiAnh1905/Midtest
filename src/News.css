@@ -1,0 +1,49 @@
+.news {
+    width: 90%;
+    margin-top: 36px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.animeCard {
+    position: relative;
+    margin-top: 32px;
+    height: 290px;
+    /* border: 1px solid white; */
+    display: flex;
+    z-index: 10;
+    gap: 40px;
+}
+.imgCard img{
+    width: 170px;
+    height: 288px;
+    /* border: 1px solid blue; */
+}
+.imgCard{
+    position: relative;
+    z-index: 0;
+}
+.imgCard .op2{
+    top:0;
+    /* left: 1px; */
+    position: absolute;
+    width: 172px;
+    height: 289px;
+    border-radius: 12px;
+    background: linear-gradient(180deg, rgba(29, 29, 29, 0) 0%, #0F1E29 100%);
+}
+.episode, .movieName{
+    text-align: center;
+    font-size: 16px;
+    line-height: 18px;
+    background: none;
+}
+.animeTitle{
+    position: absolute;
+    z-index: 5;
+    bottom: -10px;
+    background: none;
+    width: 100%;
+}
+.movieName{
+    margin-top: 10px;
+}
